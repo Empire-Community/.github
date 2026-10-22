@@ -1,0 +1,39 @@
+name: 📝 Documentação e Guias
+description: Sugira melhorias, correções de links quebrados, exemplos ou adições na documentação
+title: "docs: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentação clara e precisa é fundamental para a colaboração em código. Obrigado por contribuir!
+  - type: dropdown
+    id: project
+    attributes:
+      label: Repositório / Documento Envolvido
+      options:
+        - "EmpireMuse (Docs de Arquitetura, Setup Local, Painel Web)"
+        - "EmpireHubGamesDevelopment (SDK de Jogos, Guias de Criação)"
+        - "EmpireCommunitySite / EmpireHubSite (Termos, Políticas, Conteúdo)"
+        - "Repositório .github (Governança, Contribuição, Segurança)"
+        - "Outro repositório"
+    validations:
+      required: true
+  - type: input
+    id: page_url
+    attributes:
+      label: Link do Arquivo ou Página
+      description: URL ou caminho relativo do arquivo no repositório.
+      placeholder: "ex.: docs/development.md ou README.md"
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: O que precisa ser melhorado ou corrigido?
+      description: Explique o erro, desatualização, falta de clareza ou nova seção sugerida.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Mudança Sugerida (Texto ou Exemplo de Código)
+      description: Como você sugere que o texto ou exemplo seja reescrito?

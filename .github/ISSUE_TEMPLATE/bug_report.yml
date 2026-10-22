@@ -1,25 +1,54 @@
 name: 🐛 Relato de Bug / Defeito
-description: Relate um erro ou comportamento inesperado em um projeto da Empire Community
+description: Relate um erro, exceção ou comportamento inesperado em um projeto da Empire Community
 title: "fix: "
 labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por dedicar seu tempo para relatar um problema! Por favor, preencha o formulário abaixo com o máximo de detalhes para facilitar a reprodução e correção.
+        Obrigado por ajudar a manter nossos projetos estáveis! Preencha os campos abaixo com o máximo de detalhes possível.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Projeto / Módulo Afetado
+      description: Em qual repositório ou componente o problema ocorreu?
+      options:
+        - "EmpireMuse (Bot de Música / Painel Web / Lavalink)"
+        - "EmpireMuse-RPC-app (Desktop Rich Presence)"
+        - "EmpireHub / EmpireBot (Plataforma Core / Bot de Jogos)"
+        - "EmpireHubEngine (Phaser / Renderizador / Assets)"
+        - "EmpireHubGames / GamesDevelopment (Catálogo de Jogos / SDK)"
+        - "EmpireCommunitySite / EmpireHubSite (Portais Web / Astro)"
+        - "EmpireCraft (Mod para Minecraft)"
+        - "github-worker-relay (Cloudflare Workers / Webhooks)"
+        - "Outro / Infraestrutura Geral"
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
       label: Versão / Commit
-      description: Qual versão do projeto ou hash de commit você está utilizando?
-      placeholder: "ex.: v1.2.0 ou main (commit abc1234)"
+      description: Qual versão do projeto, tag de release ou hash de commit você está utilizando?
+      placeholder: "ex.: v1.2.0 ou commit abc1234"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Nível de Gravidade
+      description: Qual é o impacto do bug na operação do sistema?
+      options:
+        - "Baixo (Cosmético, texto, formatação)"
+        - "Médio (Funcionalidade secundária com falha, há contorno)"
+        - "Alto (Funcionalidade principal indisponível ou crash sob certas condições)"
+        - "Crítico (Serviço fora do ar ou perda de dados)"
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
       label: Descrição do Problema
-      description: Uma explicação concisa e precisa sobre o comportamento anormal ocorrido.
+      description: Uma explicação concisa e precisa sobre o comportamento anormal.
     validations:
       required: true
   - type: textarea
@@ -28,8 +57,8 @@ body:
       label: Passos para Reproduzir
       description: Passo a passo sequencial para reproduzir o problema.
       value: |
-        1. Executar '...'
-        2. Chamar o comando '...'
+        1. Executar o comando '...'
+        2. Tocar a música / abrir o jogo '...'
         3. Observar o erro '...'
     validations:
       required: true
@@ -37,21 +66,21 @@ body:
     id: expected
     attributes:
       label: Comportamento Esperado
-      description: O que deveria ter acontecido normalmente?
+      description: O que deveria ter acontecido sob condições normais?
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: Logs e Mensagens de Erro
-      description: Cole os logs relevantes ou tracebacks gerados pelo terminal (se houver código `ERR-XXXXXX`, inclua aqui).
+      label: Logs, Tracebacks e Códigos de Erro
+      description: Cole aqui os logs completos do terminal ou mensagens de erro. Se houver código de erro amigável (como ERR-XXXXXX), informe-o abaixo.
       render: shell
   - type: checkboxes
     id: checklist
     attributes:
-      label: Confirmações
+      label: Checklist de Confirmação
       options:
-        - label: Eu pesquisei nas issues abertas e fechadas e não encontrei duplicata deste relato.
+        - label: Eu pesquisei nas issues abertas e discussões e confirmei que não há duplicata deste relato.
           required: true
-        - label: Certifiquei-me de que nenhum dado confidencial ou token está visível nos logs anexados.
+        - label: Certifiquei-me de que NENHUM segredo, token de bot, senha ou chave de API está visível nos logs ou imagens anexadas.
           required: true

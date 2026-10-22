@@ -2,7 +2,10 @@ blank_issues_enabled: false
 contact_links:
   - name: 💬 Discord Oficial da Comunidade
     url: https://discord.gg/KgtyNg9U6H
-    about: Tire dúvidas rápidas, converse com outros desenvolvedores ou obtenha suporte em tempo real.
-  - name: 🛡️ Reporte de Vulnerabilidade de Segurança
+    about: Bate-papo em tempo real, suporte instantâneo com bots, calls de voz e interação com outros membros.
+  - name: 💡 GitHub Discussions da Empire Community
+    url: https://github.com/orgs/Empire-Community/discussions
+    about: Ideias de novos recursos, perguntas técnicas permanentes, RFCs abertos e vitrine de projetos.
+  - name: 🛡️ Reporte Responsável de Segurança
     url: mailto:contact@empirehub.com.br
-    about: Envie relatos de vulnerabilidades de segurança de maneira responsável e confidencial.
+    about: Envie relatos de vulnerabilidades de segurança de maneira confidencial diretamente aos mantenedores.

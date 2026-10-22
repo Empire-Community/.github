@@ -1,0 +1,42 @@
+name: 📐 RFC: Proposta Técnica / Arquitetura
+description: Abra uma issue para rastrear a implementação de uma mudança estrutural ou novo contrato técnico
+title: "rfc: "
+labels: ["rfc", "architecture"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Utilize este modelo para formalizar propostas que alteram contratos de API, arquitetura de sistemas ou dependências estruturais do ecossistema.
+  - type: input
+    id: title
+    attributes:
+      label: Título da Proposta
+      placeholder: "ex.: Novo protocolo de mensagens RPC para comunicação com player"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumo Executivo
+      description: Uma explicação concisa de 2 a 3 parágrafos sobre o objetivo da proposta.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivação e Problema
+      description: Por que essa mudança é necessária hoje? Qual gargalo ela remove?
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Especificação de Design / Implementação
+      description: Detalhes técnicos, contratos de dados, diagramas ou novos fluxos.
+    validations:
+      required: true
+  - type: textarea
+    id: discussion_link
+    attributes:
+      label: Link da Discussão Aberta (se houver)
+      description: Se já houver uma discussão iniciada no GitHub Discussions ou Discord, insira o link aqui.

@@ -1,34 +1,51 @@
 name: 💡 Sugestão de Melhoria / Nova Funcionalidade
-description: Sugira uma nova ideia, funcionalidade ou aprimoramento para o ecossistema
+description: Sugira uma nova ideia, funcionalidade ou aprimoramento técnico para nossos projetos
 title: "feat: "
-labels: ["enhancement", "idea"]
+labels: ["enhancement", "proposal"]
 body:
   - type: markdown
     attributes:
       value: |
-        Adoramos ouvir ideias e melhorias da comunidade! Conte-nos detalhadamente sobre a sua sugestão.
+        Adoramos sugestões e contribuições da comunidade! Descreva sua proposta para que possamos avaliar o impacto e viabilidade.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Projeto Alvo
+      description: A qual repositório ou ecossistema essa sugestão se destina?
+      options:
+        - "EmpireMuse (Bot de Música / Painel Web / Lavalink)"
+        - "EmpireMuse-RPC-app (Desktop Rich Presence)"
+        - "EmpireHub / EmpireBot (Plataforma Core / Bot de Jogos)"
+        - "EmpireHubEngine (Phaser / Renderizador / Assets)"
+        - "EmpireHubGames / GamesDevelopment (Catálogo de Jogos / SDK)"
+        - "EmpireCommunitySite / EmpireHubSite (Portais Web / Astro)"
+        - "EmpireCraft (Mod para Minecraft)"
+        - "github-worker-relay (Cloudflare Workers / Webhooks)"
+        - "Outro / Ecossistema Geral"
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
-      label: Qual problema ou necessidade esta sugestão resolve?
-      description: Uma explicação clara da motivação ou caso de uso prático.
-      placeholder: "Eu sinto falta de... porque quando tento fazer X, ocorre Y..."
+      label: Qual problema, necessidade ou oportunidade essa sugestão atende?
+      description: Explique a motivação prática por trás desta solicitação.
+      placeholder: "Hoje quando fazemos X, percebemos que seria muito melhor se..."
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
       label: Solução Proposta
-      description: Descreva como você imagina o funcionamento ideal desta funcionalidade.
+      description: Descreva como você imagina o comportamento ideal desta funcionalidade.
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
       label: Alternativas Consideradas
-      description: Você considerou ou testou alguma outra abordagem ou solução alternativa?
+      description: Você considerou ou testou alguma outra abordagem ou contorno temporário?
   - type: textarea
     id: context
     attributes:
       label: Contexto Adicional
-      description: Screenshots, referências, links externos ou qualquer detalhe relevante para a proposta.
+      description: Mockups, links de referência, documentação ou exemplos práticos.
