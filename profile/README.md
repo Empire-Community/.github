@@ -21,46 +21,93 @@ Nosso objetivo é unir desenvolvedores, criadores e entusiastas na concepção d
 
 ---
 
-## 🚀 Principais Projetos do Ecossistema
+## 🚀 Projetos e Ecossistemas da Organização
 
+### 🎵 Ecossistema EmpireMuse (Áudio & Discord)
 <table>
   <thead>
     <tr>
-      <th>Projeto</th>
-      <th>Linguagens / Stack</th>
+      <th>Repositório</th>
+      <th>Stack Principal</th>
       <th>Descrição</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireMuse"><strong>🎵 EmpireMuse</strong></a></td>
+      <td><a href="https://github.com/Empire-Community/EmpireMuse"><strong>EmpireMuse</strong></a></td>
       <td><code>Python 3.13</code> • <code>disnake</code> • <code>Lavalink v4</code> • <code>Tornado</code> • <code>htmx</code></td>
-      <td>Bot de música multi-instância e player interativo com painel web completo, suporte a scrobble Last.fm e arquitetura distribuída via <code>BotPool</code>.</td>
+      <td>Bot de música multi-instância e player interativo com painel web completo, suporte a Last.fm e arquitetura <code>BotPool</code>.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireMuse-RPC-app"><strong>🎧 EmpireMuse-RPC-app</strong></a></td>
+      <td><a href="https://github.com/Empire-Community/EmpireMuse-RPC-app"><strong>EmpireMuse-RPC-app</strong></a></td>
       <td><code>Python</code> • <code>Discord RPC</code> • <code>WebSockets</code></td>
-      <td>Aplicativo desktop de Rich Presence que sincroniza o que está tocando no EmpireMuse diretamente com o perfil do Discord do usuário.</td>
+      <td>Aplicativo desktop de Rich Presence que sincroniza a reprodução do EmpireMuse diretamente com o perfil do Discord.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireSite"><strong>🌐 EmpireSite</strong></a></td>
-      <td><code>Astro</code> • <code>React</code> • <code>Tailwind</code> • <code>TypeScript</code></td>
-      <td>Portal institucional da comunidade com arquitetura orientada a ilhas (Islands Architecture), alta performance, SEO e documentações de termos/privacidade.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireGamesDevelopment"><strong>🎮 EmpireGamesDevelopment</strong></a></td>
-      <td><code>TypeScript</code> • <code>Phaser</code> • <code>Templates</code></td>
-      <td>SDK, guias de desenvolvimento e templates padronizados para criação de novos jogos modulares integrados ao ecossistema EmpireCore.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireMuse-LL-binaries"><strong>📦 EmpireMuse-LL-binaries</strong></a></td>
+      <td><a href="https://github.com/Empire-Community/EmpireMuse-LL-binaries"><strong>EmpireMuse-LL-binaries</strong></a></td>
       <td><code>Java</code> • <code>Lavalink</code> • <code>Security</code></td>
-      <td>Espelhamento seguro de binários oficiais e plugins de áudio com integridade garantida por hashes SHA-256.</td>
+      <td>Espelhamento seguro de binários oficiais e plugins de áudio com integridade garantida por SHA-256.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 🎮 Ecossistema EmpireHub (Plataforma de Jogos & Engine)
+<table>
+  <thead>
+    <tr>
+      <th>Repositório</th>
+      <th>Stack Principal</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Empire-Community/EmpireHubEngine"><strong>EmpireHubEngine</strong></a></td>
+      <td><code>TypeScript</code> • <code>Phaser</code> • <code>Assets 2D/3D</code></td>
+      <td>Game engine e biblioteca central de assets gráficos, sonoros e templates de cena compartilhados para os jogos.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/github-worker-relay"><strong>⚡ github-worker-relay</strong></a></td>
+      <td><a href="https://github.com/Empire-Community/EmpireHubGames"><strong>EmpireHubGames</strong></a></td>
+      <td><code>TypeScript</code> • <code>Games</code></td>
+      <td>Catálogo de cartuchos e regras de jogos integrados ao ecossistema EmpireHub.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Empire-Community/EmpireHubGamesDevelopment"><strong>EmpireHubGamesDevelopment</strong></a></td>
+      <td><code>TypeScript</code> • <code>Docs</code> • <code>Templates</code></td>
+      <td>Documentação, guias de arquitetura e scaffold para desenvolvedores criarem novos jogos modulares.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Empire-Community/EmpireHubSite"><strong>EmpireHubSite</strong></a></td>
+      <td><code>Astro</code> • <code>React</code> • <code>Tailwind</code></td>
+      <td>Portal institucional do EmpireHub, vitrine de jogos, termos de serviço e políticas de privacidade.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 🌐 Comunidade, Ferramentas & Games
+<table>
+  <thead>
+    <tr>
+      <th>Repositório</th>
+      <th>Stack Principal</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Empire-Community/EmpireCommunitySite"><strong>EmpireCommunitySite</strong></a></td>
+      <td><code>Web</code></td>
+      <td>Website oficial e portal da Empire Community.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Empire-Community/EmpireCraft"><strong>EmpireCraft</strong></a></td>
+      <td><code>Java</code> • <code>Minecraft</code></td>
+      <td>Mod e ecossistema dedicado para Minecraft da comunidade Empire.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Empire-Community/github-worker-relay"><strong>github-worker-relay</strong></a></td>
       <td><code>JavaScript</code> • <code>Cloudflare Workers</code></td>
-      <td>Serviços de relé e automação de webhooks em edge computing para eventos da organização.</td>
+      <td>Relé serverless em Edge Computing para notificações automatizadas de changelogs e releases no Discord.</td>
     </tr>
   </tbody>
 </table>
