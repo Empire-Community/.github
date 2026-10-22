@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Oficial da Comunidade
+    url: https://discord.gg/KgtyNg9U6H
+    about: Tire dúvidas rápidas, converse com outros desenvolvedores ou obtenha suporte em tempo real.
+  - name: 🛡️ Reporte de Vulnerabilidade de Segurança
+    url: mailto:contact@empirehub.com.br
+    about: Envie relatos de vulnerabilidades de segurança de maneira responsável e confidencial.

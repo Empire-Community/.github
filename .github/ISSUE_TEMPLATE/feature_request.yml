@@ -1,0 +1,34 @@
+name: 💡 Sugestão de Melhoria / Nova Funcionalidade
+description: Sugira uma nova ideia, funcionalidade ou aprimoramento para o ecossistema
+title: "feat: "
+labels: ["enhancement", "idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Adoramos ouvir ideias e melhorias da comunidade! Conte-nos detalhadamente sobre a sua sugestão.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual problema ou necessidade esta sugestão resolve?
+      description: Uma explicação clara da motivação ou caso de uso prático.
+      placeholder: "Eu sinto falta de... porque quando tento fazer X, ocorre Y..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solução Proposta
+      description: Descreva como você imagina o funcionamento ideal desta funcionalidade.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas Consideradas
+      description: Você considerou ou testou alguma outra abordagem ou solução alternativa?
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto Adicional
+      description: Screenshots, referências, links externos ou qualquer detalhe relevante para a proposta.
