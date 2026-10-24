@@ -6,8 +6,8 @@
 
 [![Discord](https://img.shields.io/badge/Discord-EmpireHub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KgtyNg9U6H)
 [![Website](https://img.shields.io/badge/Website-empirehub.com.br-00C7B7?style=for-the-badge&logo=safari&logoColor=white)](https://empirehub.com.br)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)](https://github.com/Empire-Community)
-[![License](https://img.shields.io/badge/License-Open%20Source-blue?style=for-the-badge)](https://github.com/Empire-Community)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)](https://github.com/EmpireCommunity)
+[![License](https://img.shields.io/badge/License-Open%20Source-blue?style=for-the-badge)](https://github.com/EmpireCommunity)
 
 ---
 
@@ -34,17 +34,17 @@ Nosso objetivo é unir desenvolvedores, criadores e entusiastas na concepção d
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireMuse"><strong>EmpireMuse</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireMuse"><strong>EmpireMuse</strong></a></td>
       <td><code>Python 3.13</code> • <code>disnake</code> • <code>Lavalink v4</code> • <code>Tornado</code> • <code>htmx</code></td>
       <td>Bot de música multi-instância e player interativo com painel web completo, suporte a Last.fm e arquitetura <code>BotPool</code>.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireMuse-RPC-app"><strong>EmpireMuse-RPC-app</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireMuse-RPC-app"><strong>EmpireMuse-RPC-app</strong></a></td>
       <td><code>Python</code> • <code>Discord RPC</code> • <code>WebSockets</code></td>
       <td>Aplicativo desktop de Rich Presence que sincroniza a reprodução do EmpireMuse diretamente com o perfil do Discord.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireMuse-LL-binaries"><strong>EmpireMuse-LL-binaries</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireMuse-LL-binaries"><strong>EmpireMuse-LL-binaries</strong></a></td>
       <td><code>Java</code> • <code>Lavalink</code> • <code>Security</code></td>
       <td>Espelhamento seguro de binários oficiais e plugins de áudio com integridade garantida por SHA-256.</td>
     </tr>
@@ -62,22 +62,22 @@ Nosso objetivo é unir desenvolvedores, criadores e entusiastas na concepção d
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireHubEngine"><strong>EmpireHubEngine</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireHubEngine"><strong>EmpireHubEngine</strong></a></td>
       <td><code>TypeScript</code> • <code>Phaser</code> • <code>Assets 2D/3D</code></td>
       <td>Game engine e biblioteca central de assets gráficos, sonoros e templates de cena compartilhados para os jogos.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireHubGames"><strong>EmpireHubGames</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireHubGames"><strong>EmpireHubGames</strong></a></td>
       <td><code>TypeScript</code> • <code>Games</code></td>
       <td>Catálogo de cartuchos e regras de jogos integrados ao ecossistema EmpireHub.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireHubGamesDevelopment"><strong>EmpireHubGamesDevelopment</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireHubGamesDevelopment"><strong>EmpireHubGamesDevelopment</strong></a></td>
       <td><code>TypeScript</code> • <code>Docs</code> • <code>Templates</code></td>
       <td>Documentação, guias de arquitetura e scaffold para desenvolvedores criarem novos jogos modulares.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireHubSite"><strong>EmpireHubSite</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireHubSite"><strong>EmpireHubSite</strong></a></td>
       <td><code>Astro</code> • <code>React</code> • <code>Tailwind</code></td>
       <td>Portal institucional do EmpireHub, vitrine de jogos, termos de serviço e políticas de privacidade.</td>
     </tr>
@@ -95,17 +95,17 @@ Nosso objetivo é unir desenvolvedores, criadores e entusiastas na concepção d
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireCommunitySite"><strong>EmpireCommunitySite</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireCommunitySite"><strong>EmpireCommunitySite</strong></a></td>
       <td><code>Web</code></td>
       <td>Website oficial e portal da Empire Community.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/EmpireCraft"><strong>EmpireCraft</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/EmpireCraft"><strong>EmpireCraft</strong></a></td>
       <td><code>Java</code> • <code>Minecraft</code></td>
       <td>Mod e ecossistema dedicado para Minecraft da comunidade Empire.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Empire-Community/github-worker-relay"><strong>github-worker-relay</strong></a></td>
+      <td><a href="https://github.com/EmpireCommunity/github-worker-relay"><strong>github-worker-relay</strong></a></td>
       <td><code>JavaScript</code> • <code>Cloudflare Workers</code></td>
       <td>Relé serverless em Edge Computing para notificações automatizadas de changelogs e releases no Discord.</td>
     </tr>
@@ -145,7 +145,7 @@ Nossa organização apoia fluxos de desenvolvimento híbridos entre engenheiros 
 
 - **Secret Scanning & Push Protection**: Verificação contínua contra credenciais, chaves de API e tokens acidentais.
 - **Dependabot**: Atualizações de segurança automatizadas e alertas de vulnerabilidades ativados em toda a organização.
-- **Reporte Responsável**: Se encontrar uma vulnerabilidade de segurança, consulte nossa [Política de Segurança](https://github.com/Empire-Community/.github/blob/main/SECURITY.md) ou contate diretamente `contact@empirehub.com.br`.
+- **Reporte Responsável**: Se encontrar uma vulnerabilidade de segurança, consulte nossa [Política de Segurança](https://github.com/EmpireCommunity/.github/blob/main/SECURITY.md) ou contate diretamente `contact@empirehub.com.br`.
 
 ---
 
@@ -154,7 +154,7 @@ Nossa organização apoia fluxos de desenvolvimento híbridos entre engenheiros 
 - 💬 **Discord Oficial**: [discord.gg/KgtyNg9U6H](https://discord.gg/KgtyNg9U6H)
 - 🌐 **Portal Oficial**: [empirehub.com.br](https://empirehub.com.br)
 - 📧 **Contato / Parcerias**: [contact@empirehub.com.br](mailto:contact@empirehub.com.br)
-- 📜 **Código de Conduta**: [CODE_OF_CONDUCT.md](https://github.com/Empire-Community/.github/blob/main/CODE_OF_CONDUCT.md)
+- 📜 **Código de Conduta**: [CODE_OF_CONDUCT.md](https://github.com/EmpireCommunity/.github/blob/main/CODE_OF_CONDUCT.md)
 
 <div align="center">
 <sub>© Empire Community. Desenvolvido com paixão pela comunidade.</sub>

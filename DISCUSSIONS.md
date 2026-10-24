@@ -36,7 +36,7 @@ Para manter o fluxo de desenvolvimento ágil, produtivo e organizado, a **Empire
 ---
 
 ## 2. 💡 GitHub Discussions (Fórum Aberto & Q&A Indexável)
-* **Link:** [github.com/orgs/Empire-Community/discussions](https://github.com/orgs/Empire-Community/discussions)
+* **Link:** [github.com/orgs/EmpireCommunity/discussions](https://github.com/orgs/EmpireCommunity/discussions)
 * **Finalidade:** Comunicação assíncrona, debates estruturados e base de conhecimento permanente indexada por motores de busca.
 * **Categorias Oficiais:**
   - **💡 Ideas**: Propostas conceituais para novos bots, mecânicas de jogos no EmpireHub, novas features para o site.
